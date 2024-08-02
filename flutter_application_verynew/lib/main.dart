@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
   }
 
   Future<void> sendImageToServer(String imagePath) async {
-    var request = http.MultipartRequest('POST', Uri.parse('http://172.20.10.3:5000/upload')); //172.20.10.3, 192.168.1.42
+    var request = http.MultipartRequest('POST', Uri.parse('http://yourIPaddress:5000/upload')); 
     request.files.add(await http.MultipartFile.fromPath('picture', imagePath));
     try {
       var response = await request.send();
