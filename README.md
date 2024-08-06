@@ -57,19 +57,9 @@ The project consists of two main components:
     cd Liveness-Detection
     ```
 
-2. **Backend Setup:**
-    ```bash
-    cd backend
-    pip install -r requirements.txt
-    python app.py
-    ```
+2. **Backend Setup**
 
-3. **Frontend Setup:**
-    ```bash
-    cd ../frontend
-    flutter pub get
-    flutter run
-    ```
+3. **Frontend Setup**
 
 ## Usage
 
@@ -103,11 +93,3 @@ The project consists of two main components:
 - Develop faster and more reliable verification models.
 - Design advanced user interfaces.
 - Add additional security layers such as voice recognition.
-
-## Contributing
-
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
