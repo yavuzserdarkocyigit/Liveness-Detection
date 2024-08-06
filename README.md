@@ -12,8 +12,6 @@ This project is a human face liveness detection system using deep learning techn
 - [Models](#models)
 - [Results](#results)
 - [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
