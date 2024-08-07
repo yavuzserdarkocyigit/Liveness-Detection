@@ -57,19 +57,22 @@ The project consists of two main components:
 
 2. **Backend Setup**
 
-3. **Frontend Setup**
+3. **Frontend Setup:**
+   ```bash
+   cd flutter_application_verynew
+   flutter pub get
+   ```
 
 ## Usage
 
 1. Launch the backend server:
     ```bash
-    cd backend
     python app.py
     ```
 
 2. Run the Flutter application:
     ```bash
-    cd frontend
+    cd flutter_application_verynew
     flutter run
     ```
 
